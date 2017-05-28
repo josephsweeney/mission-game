@@ -1,0 +1,12 @@
+
+
+Back-end:
+* Game-logic
+* Infrastructure
+
+Front-end:
+* UI
+  * Front page
+  * Waiting Lobby
+  * Actual Game
+
