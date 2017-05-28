@@ -2,8 +2,29 @@
 
 Back-end:
 * Game-logic
+  * Initially
+    * Randomly select people for good, bad, merlin
+    * Bad get to see other bads
+    * Merlin gets to see bads
+    * Initial mission leader
+  * At each turn
+    * Mission leader select players to go on mission
+    * Whole group votes whether to go on this mission
+    * If passes, begin mission
+    * If rejected, mission leader switches to next player. If rejected 5x, bad wins
+    * Mission: players in mission vote "Succeed" or "Fail" anomonously. If all votes are succeed, good gets a point. Otherwise, bad gets a point.
+  * End game
+    * Team with most points wins
+    * Bad has redemption and can guess who merlin was to win the game (make the decider whichever bad was closest to last mission leader?)
+    
 * Infrastructure
-
+  * Connecting to game
+  * Starting the game
+  * Player's id
+  * Client sending info to game
+  * Local comments
+  * Chat
+  
 Front-end:
 * UI
   * Front page
